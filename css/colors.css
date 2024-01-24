@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+	--cardinal:#001347; /* Primary */
+	--babypink:#f2ccc3;
+	--independance:#464655;
+	--antiqueolive:#646536; /* Secondary */
+	--yellowgreen:#c3eb78; /* Messages */
+	--oldburgundy:#41292C;
+	--goldenbrown:#ff9f1c; /* Buttons */
+	--rawsienna:#D38B5D;
+	/* Alertas */
+	--success:#50ffb1; 
+	--alert:#ed254e;
+	--white:#fff;
+	--black:#000;
+}

@@ -1,0 +1,59 @@
+
+
+
+header, nav, main, footer{ width:100%; margin: auto; padding: 1% 5%;}
+header, nav, footer{
+	background-color: var(--cardinal);
+	color: var(--white);
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{ color:var(--white); }
+.limpa{ clear:both; }
+.pizza{
+	float: left;
+	width: 24%;
+	margin: 0.5%;
+}
+/* mobile specific class */
+.mobile{ display:none; }
+@media only screen and (max-width: 480px){/* telemovel */
+	.pizza{
+	width: 99%;
+	margin: 0.5%;
+	}
+	header, nav, main, footer{ width:95%; padding: 1% 2.5%;}
+	.mobile{ display:inline; }
+}
+/* Header Specific -------------------------------- */
+header ul li{ display:inline; margin-right: 5%; }
+header ul li:last-child{ margin-right:0; }
+header ul li a{ color:var(--white); }
+/* END Header Specific --------------------------------*/
+
+/* Nav Specific -------------------------------- */
+nav{ text-align:center; }
+nav ul li{ display:inline; margin-right: 5%;}
+nav ul li:last-child{ margin-right:0;/ }
+
+/* END Nav Specific -------------------------------- */
+
+/* Section Login ------------------------------------ */
+.login{
+	text-align: center;
+	width: 50%;
+	margin:auto;
+}
+/* End Section Login ------------------------------------ */
+
+.listagem{ border-bottom-style:solid; border-bottom-color:red; }
+
+sup{
+	font-size:0.7em;
+	background-color: var(--goldenbrown);
+	border-radius: 50%;
+	padding:0.2% 0.5%;
+}
+
+
+
+
+

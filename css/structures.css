@@ -1,0 +1,141 @@
+*{ margin:0; padding:0; }
+
+/* Grelha paddings ---------------------------------------------------------*/
+.p1{ padding: 1%; }
+.p2{ padding: 2%; }
+.p3{ padding: 3%; }
+.p4{ padding: 4%; }
+.p5{ padding: 5%; }
+
+/* Grelha paddings verticais -----------------------------------------------*/
+.pt1{ padding-top: 1%; }
+.pt2{ padding-top: 2%; }
+.pt3{ padding-top: 3%; }
+.pt4{ padding-top: 4%; }
+.pt5{ padding-top: 5%; }
+.pb1{ padding-bottom: 1%; }
+.pb2{ padding-bottom: 2%; }
+.pb3{ padding-bottom: 3%; }
+.pb4{ padding-bottom: 4%; }
+.pb5{ padding-bottom: 5%; }
+
+/* Grelha Margins ----------------------------------------------------------*/
+.m1{ margin: 1%; }
+.m2{ margin: 2%; }
+.m3{ margin: 3%; }
+.m4{ margin: 4%; }
+.m5{ margin: 5%; }
+
+/* Grelha Margins Verticais ------------------------------------------------*/
+.mt1{ margin-top: 1%; }
+.mt2{ margin-top: 2%; }
+.mt3{ margin-top: 3%; }
+.mt4{ margin-top: 4%; }
+.mt5{ margin-top: 5%; }
+.mb1{ margin-bottom: 1%; }
+.mb2{ margin-bottom: 2%; }
+.mb3{ margin-bottom: 3%; }
+.mb4{ margin-bottom: 4%; }
+.mb5{ margin-bottom: 5%; }
+
+/* Table Elements ---------------------------------------------------------- */
+.row{ display: table; width: 100%; }
+.col{ display: table-cell; padding: 0.5%; vertical-align: top;}
+.col-1{ width: 8.33%; } /* 100/12= 8.33 */
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+/* Buttons ---------------------------------------------------------------- */
+.bt{
+	width: 100%; padding: 2%; text-align: center;
+	border: 0; margin: 1% 0%;
+	border-radius: 12px;
+}
+@media only screen and (max-width: 480px){/* telemovel */
+	.bt{
+	padding: 5% 2%; 
+	}
+}
+
+
+.bt:hover{
+	cursor: pointer;
+	border-radius: 0px;
+}
+.bt_cancel{
+	background-color: var(--cardinal);
+	color: var(--white);
+}
+.bt_primary{
+	background-color: var(--goldenbrown);
+	color: var(--white);
+}
+.bt_action{
+	background-color: var(--yellowgreen);
+	color: var(--white);
+}
+input{
+	width: 98%;
+	padding: 1%;
+	margin:2% 0%;
+}
+hr{
+	margin:2% ;
+}
+
+/* Images ------------------------------------------------------------------- */
+
+img{ width: 100%; height:auto; }
+img:hover{ border-radius:12px; }
+
+/* Links --------------------------------------------------------------------- */
+a{ text-decoration:none; color: var(--cardinal);}
+nav a{ color: var(--white); }
+/* Logo --------------------------------------------------------------------- */
+.logo{ font-family: 'Dancing Script', cursive; font-size:2em; }
+
+/* Headings ----------------------------------------------------------------- */
+h1{ font-family: 'Roboto', cursive; color: var(--antiqueolive); font-size: 1.5em; }
+h2{ font-family: 'Roboto', cursive; color: var(--antiqueolive); font-size: 1.2em; }
+h3{ font-family: 'Roboto', cursive; color: var(--antiqueolive); font-size: 1em; }
+h4{ font-family: 'Roboto', cursive; color: var(--antiqueolive); font-size: 0.8em; }
+h5{ font-family: 'Roboto', cursive; color: var(--antiqueolive); font-size: 0.6em; }
+h6{ font-family: 'Roboto', cursive; color: var(--antiqueolive); font-size: 0.4em; }
+
+/* Aligns Contents */
+.text_left{ text-align:left; }
+.text_right{ text-align:right; }
+.text_center{ text-align:center; }
+.vtext_top{ vertical-align:top; }
+.vtext_bottom{ vertical-align:bottom; }
+.vtext_middle{ vertical-align: middle; }
+
+
+
+
+/* 
+html {
+	height: 100%;
+	min-height: 100%;
+  }
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+  }
+
+  .container, .centralize{
+	flex-grow: 1;
+  } */
